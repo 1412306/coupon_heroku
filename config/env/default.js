@@ -2,7 +2,7 @@
 
 module.exports = Object.freeze({
     mongo_config: {
-        connect_string: 'mongodb://localhost:27017/coupon_management',
+        connect_string: 'mongodb+srv://lucnguyen:qeqwqooy13@cluster0.kznog.mongodb.net/coupon_management?retryWrites=true&w=majority\n',
         db_mg_user: '',
         db_mg_pass: '',
         prefix: 'cm_',
